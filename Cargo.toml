@@ -1,0 +1,18 @@
+[package]
+name = "objex"
+version = "0.1.0"
+edition = "2024"
+authors = ["Dr. Ippy <jdplumbingsoflo@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/JDPlumbing/objex-rs"
+
+[dependencies]
+geospec = "0.1.0"
+matcat = "0.2.0"
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "bench"
+harness = false
