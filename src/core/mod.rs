@@ -1,3 +1,5 @@
-mod object;
+pub mod object;
+pub mod composite;
 
-pub use object::Object;
+pub use object::*;
+pub use composite::*;

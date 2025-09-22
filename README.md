@@ -1,6 +1,6 @@
 # objex-rs
 
-[![CI](https://github.com/JDPlumbing/objex/actions/workflows/ci.yml/badge.svg)](https://github.com/JDPlumbing/objex/actions)
+[![CI](https://github.com/JDPlumbing/objex-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/JDPlumbing/objex-rs/actions)
 
 Created by [JDPlumbing](https://github.com/JDPlumbing)
 

@@ -29,3 +29,4 @@ impl<T: Dimensions + Volume + SurfaceArea> Object<T> {
         self.density() as f64 * self.volume()
     }
 }
+
