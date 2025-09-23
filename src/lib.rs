@@ -15,4 +15,5 @@ pub use systems::{
     degradation,
     mechanical,
     composite as systems_composite, // renamed to avoid conflict with core::composite
+    electrical,
 };

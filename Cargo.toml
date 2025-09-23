@@ -16,3 +16,7 @@ criterion = "0.5"
 [[bench]]
 name = "bench"
 harness = false
+
+[[bench]]
+name = "electrical"
+harness = false
