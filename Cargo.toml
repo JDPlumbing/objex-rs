@@ -5,6 +5,8 @@ edition = "2024"
 authors = ["Dr. Ippy <jdplumbingsoflo@gmail.com>"]
 license = "MIT"
 repository = "https://github.com/JDPlumbing/objex-rs"
+description = "object entity creation and persistence using matcat and geospec"
+
 
 [dependencies]
 geospec = "0.1.0"
