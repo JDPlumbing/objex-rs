@@ -1,19 +1,24 @@
 pub mod core;
 pub mod systems;
+pub mod persist;
+pub mod error;
 
-// Explicit re-exports from `core`
+pub use error::{ObjexError, Result};
+
 pub use core::{
     Object,
     CompositeObject,
+    types::{Objex, Shape, MaterialLink},
 };
 
-// Explicit re-exports from `systems`
 pub use systems::{
     mass,
     strength,
     thermal,
     degradation,
     mechanical,
-    composite as systems_composite, // renamed to avoid conflict with core::composite
+    composite as systems_composite,
     electrical,
 };
+
+pub use persist::{insert_objex, fetch_objex};

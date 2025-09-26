@@ -9,6 +9,21 @@ repository = "https://github.com/JDPlumbing/objex-rs"
 [dependencies]
 geospec = "0.1.0"
 matcat = "0.2.1"
+supabasic = "0.2.4"
+
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+dotenvy = "0.15.7"
+tokio = "1.47.1"
+droidid = "0.1.0"
+
+thiserror = "1.0"
+anyhow = "1.0"
+uuid = { version = "1.8", features = ["serde", "v4"] }
+
+
+
 
 [dev-dependencies]
 criterion = "0.5"
